@@ -1,5 +1,4 @@
-<!-- 🔥 نسخه به‌روز شده تمام صفحات Mercadox با لوگو و افکت‌های حرفه‌ای -->
-<!-- فایل 1: index.html -->
+<!-- 🔥 نسخه به‌روز شده صفحه index.html با هدر حرفه‌ای و منوی کادربندی‌شده -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,9 +13,30 @@
       background: linear-gradient(to bottom right, #f1fcff, #e6fffa);
       color: #1a2e35;
     }
+    .navbar {
+      background-color: #ffffff;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+      border-radius: 16px;
+      margin-top: 20px;
+      padding: 15px 30px;
+    }
     .navbar-brand img {
       height: 40px;
       margin-right: 10px;
+    }
+    .nav-link {
+      color: #1a2e35;
+      font-weight: 500;
+      margin-left: 15px;
+      border: 1px solid transparent;
+      padding: 6px 14px;
+      border-radius: 10px;
+      transition: all 0.3s ease;
+    }
+    .nav-link:hover {
+      background-color: #00bfa6;
+      color: white;
+      border-color: #00bfa6;
     }
     .hero {
       padding: 100px 0;
@@ -54,21 +74,23 @@
 </head>
 <body>
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
-    <div class="container">
-      <a class="navbar-brand d-flex align-items-center" href="index.html">
-        <img src="logo.png" alt="Mercadox Logo">
-        <strong>Mercadox (MRX)</strong>
-      </a>
-      <div>
-        <a class="nav-link" href="tokenomics.html">Tokenomics</a>
-        <a class="nav-link" href="whitepaper.html">Whitepaper</a>
-        <a class="nav-link" href="roadmap.html">Roadmap</a>
-        <a class="nav-link" href="faq.html">FAQ</a>
-        <a class="nav-link" href="get-mrx.html">Get MRX</a>
+  <div class="container">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand d-flex align-items-center" href="index.html">
+          <img src="logo.png" alt="Mercadox Logo">
+          <strong>Mercadox (MRX)</strong>
+        </a>
+        <div class="d-flex">
+          <a class="nav-link" href="tokenomics.html">Tokenomics</a>
+          <a class="nav-link" href="whitepaper.html">Whitepaper</a>
+          <a class="nav-link" href="roadmap.html">Roadmap</a>
+          <a class="nav-link" href="faq.html">FAQ</a>
+          <a class="nav-link" href="get-mrx.html">Get MRX</a>
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
+  </div>
 
   <!-- Hero Section -->
   <section class="hero">
@@ -86,6 +108,3 @@
 
 </body>
 </html>
-
-<!-- ✅ ادامه صفحات: tokenomics.html، whitepaper.html، roadmap.html، faq.html، get-mrx.html -->
-<!-- اگر تأیید کردی همین استایل و لوگو رو روی همه صفحات پیاده می‌کنم و همه رو برات کامل می‌فرستم. فقط بگو ادامه بدم؟ -->
